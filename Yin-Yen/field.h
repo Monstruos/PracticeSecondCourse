@@ -8,10 +8,11 @@ class Field
 public:
     Field(int x, int y);
     ~Field();
-    int next();
+    void next();
 protected:
-    bool isDead(YinYen *cell);
-    bool isNew(YinYen *cell);
+    bool isDead(int x, int y);
+    int isNew(int x, int y);
+    void checkAdjacent(int x, int y, int &res, int &number);
 private:
     int xsize;
     int ysize;

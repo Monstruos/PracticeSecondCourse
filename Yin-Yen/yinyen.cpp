@@ -8,11 +8,11 @@ YinYen::YinYen() :
 
 }
 
-YinYen::YinYen(int x, int y, unsigned int status = 0) :
+YinYen::YinYen(int x, int y, int status = 0) :
     xpos(x),
     ypos(y)
 {
-    status < 3 ? stat = status : stat = 0;
+    (status < 2 && status > -2) ? stat = status : stat = 0;
 }
 
 YinYen::~YinYen()
@@ -20,14 +20,14 @@ YinYen::~YinYen()
 
 }
 
-void YinYen::setStatus(unsigned int status)
+void YinYen::setStatus(int status)
 {
     stat = status;
 }
 
-int YinYen::getStatus(unsigned int status)
+int YinYen::getStatus()
 {
-    return status;
+    return stat;
 }
 
 void YinYen::getXY(int &x, int &y)

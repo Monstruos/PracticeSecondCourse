@@ -6,10 +6,10 @@ class YinYen
 {
 public:
     YinYen();
-    YinYen(int x, int y, unsigned int status);
+    YinYen(int x, int y, int status);
     ~YinYen();
-    void setStatus(unsigned int status);
-    int getStatus(unsigned int status);
+    void setStatus(int status);
+    int getStatus();
     void getXY(int &x, int &y);
 private:
     int xpos;
