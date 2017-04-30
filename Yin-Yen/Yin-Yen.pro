@@ -13,9 +13,15 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    trianglewindow.cpp \
+    field.cpp \
+    yinyen.cpp
 
 HEADERS  += \
-    mainwindow.h
+    mainwindow.h \
+    trianglewindow.h \
+    field.h \
+    yinyen.h
 
 FORMS    +=
