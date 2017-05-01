@@ -1,14 +1,14 @@
 #ifndef TRIANGLEWINDOW_H
 #define TRIANGLEWINDOW_H
 
-#include "mainwindow.h"
+#include "oglwindow.h"
 #include <QtGui/QMatrix4x4>
 #include <QtGui/QOpenGLShaderProgram>
 #include <QtGui/QScreen>
 
 #include <QtCore/qmath.h>
 
-class TriangleWindow : public MainWindow
+class TriangleWindow : public OGLWindow
 {
 public:
     TriangleWindow();

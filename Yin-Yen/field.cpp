@@ -30,7 +30,7 @@ void Field::next()
             if(notEmpty == 0 && New != 0)
                 nextmap[i][j].setStatus(New);
 
-            if(notEmpty != 0 && isDead(i, j))
+            if(isDead(i, j))
                 nextmap[i][j].setStatus(0);
         }
     }
@@ -60,6 +60,8 @@ bool Field::isDead(int x, int y)
 
 int Field::isNew(int x, int y)
 {
+    if(map[x][y].getStatus() != 0)
+        return 0;
     int res, count;
     checkAdjacent(x, y, res, count);
 

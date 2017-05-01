@@ -1,5 +1,5 @@
-#ifndef STARTMENU_H
-#define STARTMENU_H
+#ifndef OGLWINDOW_H
+#define OGLWINDOW_H
 
 #include <QtGui/QWindow>
 #include <QtGui/QOpenGLFunctions>
@@ -9,12 +9,12 @@ class QPainter;
 class QOpenGLContext;
 class QOpenGLPaintDevice;
 
-class MainWindow : public QWindow, protected QOpenGLFunctions
+class OGLWindow : public QWindow, protected QOpenGLFunctions
 {
     Q_OBJECT
 public:
-    explicit MainWindow(QWindow *parent = 0);
-    ~MainWindow();
+    explicit OGLWindow(QWindow *parent = 0);
+    ~OGLWindow();
 
     virtual void render(QPainter *painter);
     virtual void render();
