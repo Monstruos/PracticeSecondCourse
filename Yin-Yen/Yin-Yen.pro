@@ -11,17 +11,14 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = Yin-Yen
 TEMPLATE = app
 
+LIBS += -lsfml-audio -lsfml-graphics -lsfml-main -lsfml-network -lsfml-window -lsfml-system
 
 SOURCES += main.cpp \
-    trianglewindow.cpp \
     field.cpp \
-    yinyen.cpp \
-    oglwindow.cpp
+    yinyen.cpp
 
 HEADERS  += \
-    trianglewindow.h \
     field.h \
-    yinyen.h \
-    oglwindow.h
+    yinyen.h
 
 FORMS    +=
