@@ -11,6 +11,7 @@ public:
     void setStatus(int status);
     int getStatus();
     void getXY(int &x, int &y);
+
 private:
     int xpos;
     int ypos;
