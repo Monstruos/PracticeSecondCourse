@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/monstruos/CLionProjects/Practice
+CMAKE_SOURCE_DIR = /home/monstruos/GitHub/Practice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/monstruos/CLionProjects/Practice/cmake-build-debug
+CMAKE_BINARY_DIR = /home/monstruos/GitHub/Practice/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Practice.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Practice.dir/flags.make
 
 CMakeFiles/Practice.dir/main.cpp.o: CMakeFiles/Practice.dir/flags.make
 CMakeFiles/Practice.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/monstruos/CLionProjects/Practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Practice.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practice.dir/main.cpp.o -c /home/monstruos/CLionProjects/Practice/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/monstruos/GitHub/Practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Practice.dir/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practice.dir/main.cpp.o -c /home/monstruos/GitHub/Practice/main.cpp
 
 CMakeFiles/Practice.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practice.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monstruos/CLionProjects/Practice/main.cpp > CMakeFiles/Practice.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monstruos/GitHub/Practice/main.cpp > CMakeFiles/Practice.dir/main.cpp.i
 
 CMakeFiles/Practice.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practice.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monstruos/CLionProjects/Practice/main.cpp -o CMakeFiles/Practice.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monstruos/GitHub/Practice/main.cpp -o CMakeFiles/Practice.dir/main.cpp.s
 
 CMakeFiles/Practice.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Practice.dir/main.cpp.o.provides.build: CMakeFiles/Practice.dir/main.
 
 CMakeFiles/Practice.dir/field.cpp.o: CMakeFiles/Practice.dir/flags.make
 CMakeFiles/Practice.dir/field.cpp.o: ../field.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/monstruos/CLionProjects/Practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Practice.dir/field.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practice.dir/field.cpp.o -c /home/monstruos/CLionProjects/Practice/field.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/monstruos/GitHub/Practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Practice.dir/field.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practice.dir/field.cpp.o -c /home/monstruos/GitHub/Practice/field.cpp
 
 CMakeFiles/Practice.dir/field.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practice.dir/field.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monstruos/CLionProjects/Practice/field.cpp > CMakeFiles/Practice.dir/field.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monstruos/GitHub/Practice/field.cpp > CMakeFiles/Practice.dir/field.cpp.i
 
 CMakeFiles/Practice.dir/field.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practice.dir/field.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monstruos/CLionProjects/Practice/field.cpp -o CMakeFiles/Practice.dir/field.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monstruos/GitHub/Practice/field.cpp -o CMakeFiles/Practice.dir/field.cpp.s
 
 CMakeFiles/Practice.dir/field.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/Practice.dir/field.cpp.o.provides.build: CMakeFiles/Practice.dir/fiel
 
 CMakeFiles/Practice.dir/yinyen.cpp.o: CMakeFiles/Practice.dir/flags.make
 CMakeFiles/Practice.dir/yinyen.cpp.o: ../yinyen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/monstruos/CLionProjects/Practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Practice.dir/yinyen.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practice.dir/yinyen.cpp.o -c /home/monstruos/CLionProjects/Practice/yinyen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/monstruos/GitHub/Practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Practice.dir/yinyen.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practice.dir/yinyen.cpp.o -c /home/monstruos/GitHub/Practice/yinyen.cpp
 
 CMakeFiles/Practice.dir/yinyen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practice.dir/yinyen.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monstruos/CLionProjects/Practice/yinyen.cpp > CMakeFiles/Practice.dir/yinyen.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monstruos/GitHub/Practice/yinyen.cpp > CMakeFiles/Practice.dir/yinyen.cpp.i
 
 CMakeFiles/Practice.dir/yinyen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practice.dir/yinyen.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monstruos/CLionProjects/Practice/yinyen.cpp -o CMakeFiles/Practice.dir/yinyen.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monstruos/GitHub/Practice/yinyen.cpp -o CMakeFiles/Practice.dir/yinyen.cpp.s
 
 CMakeFiles/Practice.dir/yinyen.cpp.o.requires:
 
@@ -143,7 +143,7 @@ Practice: CMakeFiles/Practice.dir/field.cpp.o
 Practice: CMakeFiles/Practice.dir/yinyen.cpp.o
 Practice: CMakeFiles/Practice.dir/build.make
 Practice: CMakeFiles/Practice.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/monstruos/CLionProjects/Practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Practice"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/monstruos/GitHub/Practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Practice"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Practice.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -162,6 +162,6 @@ CMakeFiles/Practice.dir/clean:
 .PHONY : CMakeFiles/Practice.dir/clean
 
 CMakeFiles/Practice.dir/depend:
-	cd /home/monstruos/CLionProjects/Practice/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/monstruos/CLionProjects/Practice /home/monstruos/CLionProjects/Practice /home/monstruos/CLionProjects/Practice/cmake-build-debug /home/monstruos/CLionProjects/Practice/cmake-build-debug /home/monstruos/CLionProjects/Practice/cmake-build-debug/CMakeFiles/Practice.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/monstruos/GitHub/Practice/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/monstruos/GitHub/Practice /home/monstruos/GitHub/Practice /home/monstruos/GitHub/Practice/cmake-build-debug /home/monstruos/GitHub/Practice/cmake-build-debug /home/monstruos/GitHub/Practice/cmake-build-debug/CMakeFiles/Practice.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Practice.dir/depend
 

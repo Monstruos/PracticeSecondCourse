@@ -1,6 +1,6 @@
-#include <SFML/Graphics.hpp>
-
-using namespace sf;
+#define YIN -1
+#define EMPTY 0
+#define YEN 1
 
 class YinYen
 {

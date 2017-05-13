@@ -6,23 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/monstruos/CLionProjects/Practice/field.cpp
+/home/monstruos/GitHub/Practice/field.cpp
 field.h
-/home/monstruos/CLionProjects/Practice/field.h
+/home/monstruos/GitHub/Practice/field.h
 
-/home/monstruos/CLionProjects/Practice/field.h
-yinyen.h
-/home/monstruos/CLionProjects/Practice/yinyen.h
-
-/home/monstruos/CLionProjects/Practice/main.cpp
-field.h
-/home/monstruos/CLionProjects/Practice/field.h
-
-/home/monstruos/CLionProjects/Practice/yinyen.cpp
-yinyen.h
-/home/monstruos/CLionProjects/Practice/yinyen.h
-
-/home/monstruos/CLionProjects/Practice/yinyen.h
+/home/monstruos/GitHub/Practice/field.h
 SFML/Graphics.hpp
 -
+yinyen.h
+/home/monstruos/GitHub/Practice/yinyen.h
+
+/home/monstruos/GitHub/Practice/main.cpp
+field.h
+/home/monstruos/GitHub/Practice/field.h
+
+/home/monstruos/GitHub/Practice/yinyen.cpp
+yinyen.h
+/home/monstruos/GitHub/Practice/yinyen.h
+
+/home/monstruos/GitHub/Practice/yinyen.h
 
