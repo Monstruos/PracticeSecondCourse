@@ -4,9 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/monstruos/GitHub/Practice/field.cpp" "/home/monstruos/GitHub/Practice/cmake-build-debug/CMakeFiles/Practice.dir/field.cpp.o"
   "/home/monstruos/GitHub/Practice/main.cpp" "/home/monstruos/GitHub/Practice/cmake-build-debug/CMakeFiles/Practice.dir/main.cpp.o"
-  "/home/monstruos/GitHub/Practice/yinyen.cpp" "/home/monstruos/GitHub/Practice/cmake-build-debug/CMakeFiles/Practice.dir/yinyen.cpp.o"
+  "/home/monstruos/GitHub/Practice/src/field.cpp" "/home/monstruos/GitHub/Practice/cmake-build-debug/CMakeFiles/Practice.dir/src/field.cpp.o"
+  "/home/monstruos/GitHub/Practice/src/menu.cpp" "/home/monstruos/GitHub/Practice/cmake-build-debug/CMakeFiles/Practice.dir/src/menu.cpp.o"
+  "/home/monstruos/GitHub/Practice/src/yinyen.cpp" "/home/monstruos/GitHub/Practice/cmake-build-debug/CMakeFiles/Practice.dir/src/yinyen.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -84,19 +84,25 @@
          </MakeCommands>
       </Target>
       </Build>
-      <Unit filename="/home/monstruos/GitHub/Practice/field.cpp">
-         <Option target="Practice"/>
-      </Unit>
-      <Unit filename="/home/monstruos/GitHub/Practice/field.h">
-         <Option target="Practice"/>
-      </Unit>
       <Unit filename="/home/monstruos/GitHub/Practice/main.cpp">
          <Option target="Practice"/>
       </Unit>
-      <Unit filename="/home/monstruos/GitHub/Practice/yinyen.cpp">
+      <Unit filename="/home/monstruos/GitHub/Practice/src/field.cpp">
          <Option target="Practice"/>
       </Unit>
-      <Unit filename="/home/monstruos/GitHub/Practice/yinyen.h">
+      <Unit filename="/home/monstruos/GitHub/Practice/src/field.h">
+         <Option target="Practice"/>
+      </Unit>
+      <Unit filename="/home/monstruos/GitHub/Practice/src/menu.cpp">
+         <Option target="Practice"/>
+      </Unit>
+      <Unit filename="/home/monstruos/GitHub/Practice/src/menu.h">
+         <Option target="Practice"/>
+      </Unit>
+      <Unit filename="/home/monstruos/GitHub/Practice/src/yinyen.cpp">
+         <Option target="Practice"/>
+      </Unit>
+      <Unit filename="/home/monstruos/GitHub/Practice/src/yinyen.h">
          <Option target="Practice"/>
       </Unit>
       <Unit filename="/home/monstruos/GitHub/Practice/CMakeLists.txt">

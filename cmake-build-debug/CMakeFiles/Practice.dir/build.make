@@ -81,69 +81,95 @@ CMakeFiles/Practice.dir/main.cpp.o.provides: CMakeFiles/Practice.dir/main.cpp.o.
 CMakeFiles/Practice.dir/main.cpp.o.provides.build: CMakeFiles/Practice.dir/main.cpp.o
 
 
-CMakeFiles/Practice.dir/field.cpp.o: CMakeFiles/Practice.dir/flags.make
-CMakeFiles/Practice.dir/field.cpp.o: ../field.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/monstruos/GitHub/Practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Practice.dir/field.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practice.dir/field.cpp.o -c /home/monstruos/GitHub/Practice/field.cpp
+CMakeFiles/Practice.dir/src/field.cpp.o: CMakeFiles/Practice.dir/flags.make
+CMakeFiles/Practice.dir/src/field.cpp.o: ../src/field.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/monstruos/GitHub/Practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Practice.dir/src/field.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practice.dir/src/field.cpp.o -c /home/monstruos/GitHub/Practice/src/field.cpp
 
-CMakeFiles/Practice.dir/field.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practice.dir/field.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monstruos/GitHub/Practice/field.cpp > CMakeFiles/Practice.dir/field.cpp.i
+CMakeFiles/Practice.dir/src/field.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practice.dir/src/field.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monstruos/GitHub/Practice/src/field.cpp > CMakeFiles/Practice.dir/src/field.cpp.i
 
-CMakeFiles/Practice.dir/field.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practice.dir/field.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monstruos/GitHub/Practice/field.cpp -o CMakeFiles/Practice.dir/field.cpp.s
+CMakeFiles/Practice.dir/src/field.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practice.dir/src/field.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monstruos/GitHub/Practice/src/field.cpp -o CMakeFiles/Practice.dir/src/field.cpp.s
 
-CMakeFiles/Practice.dir/field.cpp.o.requires:
+CMakeFiles/Practice.dir/src/field.cpp.o.requires:
 
-.PHONY : CMakeFiles/Practice.dir/field.cpp.o.requires
+.PHONY : CMakeFiles/Practice.dir/src/field.cpp.o.requires
 
-CMakeFiles/Practice.dir/field.cpp.o.provides: CMakeFiles/Practice.dir/field.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/field.cpp.o.provides.build
-.PHONY : CMakeFiles/Practice.dir/field.cpp.o.provides
+CMakeFiles/Practice.dir/src/field.cpp.o.provides: CMakeFiles/Practice.dir/src/field.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/src/field.cpp.o.provides.build
+.PHONY : CMakeFiles/Practice.dir/src/field.cpp.o.provides
 
-CMakeFiles/Practice.dir/field.cpp.o.provides.build: CMakeFiles/Practice.dir/field.cpp.o
+CMakeFiles/Practice.dir/src/field.cpp.o.provides.build: CMakeFiles/Practice.dir/src/field.cpp.o
 
 
-CMakeFiles/Practice.dir/yinyen.cpp.o: CMakeFiles/Practice.dir/flags.make
-CMakeFiles/Practice.dir/yinyen.cpp.o: ../yinyen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/monstruos/GitHub/Practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Practice.dir/yinyen.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practice.dir/yinyen.cpp.o -c /home/monstruos/GitHub/Practice/yinyen.cpp
+CMakeFiles/Practice.dir/src/yinyen.cpp.o: CMakeFiles/Practice.dir/flags.make
+CMakeFiles/Practice.dir/src/yinyen.cpp.o: ../src/yinyen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/monstruos/GitHub/Practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Practice.dir/src/yinyen.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practice.dir/src/yinyen.cpp.o -c /home/monstruos/GitHub/Practice/src/yinyen.cpp
 
-CMakeFiles/Practice.dir/yinyen.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practice.dir/yinyen.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monstruos/GitHub/Practice/yinyen.cpp > CMakeFiles/Practice.dir/yinyen.cpp.i
+CMakeFiles/Practice.dir/src/yinyen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practice.dir/src/yinyen.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monstruos/GitHub/Practice/src/yinyen.cpp > CMakeFiles/Practice.dir/src/yinyen.cpp.i
 
-CMakeFiles/Practice.dir/yinyen.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practice.dir/yinyen.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monstruos/GitHub/Practice/yinyen.cpp -o CMakeFiles/Practice.dir/yinyen.cpp.s
+CMakeFiles/Practice.dir/src/yinyen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practice.dir/src/yinyen.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monstruos/GitHub/Practice/src/yinyen.cpp -o CMakeFiles/Practice.dir/src/yinyen.cpp.s
 
-CMakeFiles/Practice.dir/yinyen.cpp.o.requires:
+CMakeFiles/Practice.dir/src/yinyen.cpp.o.requires:
 
-.PHONY : CMakeFiles/Practice.dir/yinyen.cpp.o.requires
+.PHONY : CMakeFiles/Practice.dir/src/yinyen.cpp.o.requires
 
-CMakeFiles/Practice.dir/yinyen.cpp.o.provides: CMakeFiles/Practice.dir/yinyen.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/yinyen.cpp.o.provides.build
-.PHONY : CMakeFiles/Practice.dir/yinyen.cpp.o.provides
+CMakeFiles/Practice.dir/src/yinyen.cpp.o.provides: CMakeFiles/Practice.dir/src/yinyen.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/src/yinyen.cpp.o.provides.build
+.PHONY : CMakeFiles/Practice.dir/src/yinyen.cpp.o.provides
 
-CMakeFiles/Practice.dir/yinyen.cpp.o.provides.build: CMakeFiles/Practice.dir/yinyen.cpp.o
+CMakeFiles/Practice.dir/src/yinyen.cpp.o.provides.build: CMakeFiles/Practice.dir/src/yinyen.cpp.o
+
+
+CMakeFiles/Practice.dir/src/menu.cpp.o: CMakeFiles/Practice.dir/flags.make
+CMakeFiles/Practice.dir/src/menu.cpp.o: ../src/menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/monstruos/GitHub/Practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Practice.dir/src/menu.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Practice.dir/src/menu.cpp.o -c /home/monstruos/GitHub/Practice/src/menu.cpp
+
+CMakeFiles/Practice.dir/src/menu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practice.dir/src/menu.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/monstruos/GitHub/Practice/src/menu.cpp > CMakeFiles/Practice.dir/src/menu.cpp.i
+
+CMakeFiles/Practice.dir/src/menu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practice.dir/src/menu.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/monstruos/GitHub/Practice/src/menu.cpp -o CMakeFiles/Practice.dir/src/menu.cpp.s
+
+CMakeFiles/Practice.dir/src/menu.cpp.o.requires:
+
+.PHONY : CMakeFiles/Practice.dir/src/menu.cpp.o.requires
+
+CMakeFiles/Practice.dir/src/menu.cpp.o.provides: CMakeFiles/Practice.dir/src/menu.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/src/menu.cpp.o.provides.build
+.PHONY : CMakeFiles/Practice.dir/src/menu.cpp.o.provides
+
+CMakeFiles/Practice.dir/src/menu.cpp.o.provides.build: CMakeFiles/Practice.dir/src/menu.cpp.o
 
 
 # Object files for target Practice
 Practice_OBJECTS = \
 "CMakeFiles/Practice.dir/main.cpp.o" \
-"CMakeFiles/Practice.dir/field.cpp.o" \
-"CMakeFiles/Practice.dir/yinyen.cpp.o"
+"CMakeFiles/Practice.dir/src/field.cpp.o" \
+"CMakeFiles/Practice.dir/src/yinyen.cpp.o" \
+"CMakeFiles/Practice.dir/src/menu.cpp.o"
 
 # External object files for target Practice
 Practice_EXTERNAL_OBJECTS =
 
 Practice: CMakeFiles/Practice.dir/main.cpp.o
-Practice: CMakeFiles/Practice.dir/field.cpp.o
-Practice: CMakeFiles/Practice.dir/yinyen.cpp.o
+Practice: CMakeFiles/Practice.dir/src/field.cpp.o
+Practice: CMakeFiles/Practice.dir/src/yinyen.cpp.o
+Practice: CMakeFiles/Practice.dir/src/menu.cpp.o
 Practice: CMakeFiles/Practice.dir/build.make
 Practice: CMakeFiles/Practice.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/monstruos/GitHub/Practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Practice"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/monstruos/GitHub/Practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Practice"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Practice.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -152,8 +178,9 @@ CMakeFiles/Practice.dir/build: Practice
 .PHONY : CMakeFiles/Practice.dir/build
 
 CMakeFiles/Practice.dir/requires: CMakeFiles/Practice.dir/main.cpp.o.requires
-CMakeFiles/Practice.dir/requires: CMakeFiles/Practice.dir/field.cpp.o.requires
-CMakeFiles/Practice.dir/requires: CMakeFiles/Practice.dir/yinyen.cpp.o.requires
+CMakeFiles/Practice.dir/requires: CMakeFiles/Practice.dir/src/field.cpp.o.requires
+CMakeFiles/Practice.dir/requires: CMakeFiles/Practice.dir/src/yinyen.cpp.o.requires
+CMakeFiles/Practice.dir/requires: CMakeFiles/Practice.dir/src/menu.cpp.o.requires
 
 .PHONY : CMakeFiles/Practice.dir/requires
 

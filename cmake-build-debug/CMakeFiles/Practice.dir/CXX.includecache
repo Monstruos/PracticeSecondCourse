@@ -6,23 +6,33 @@
 
 #IncludeRegexTransform: 
 
-/home/monstruos/GitHub/Practice/field.cpp
-field.h
-/home/monstruos/GitHub/Practice/field.h
+/home/monstruos/GitHub/Practice/main.cpp
+src/menu.h
+/home/monstruos/GitHub/Practice/src/menu.h
 
-/home/monstruos/GitHub/Practice/field.h
+/home/monstruos/GitHub/Practice/src/field.cpp
+field.h
+/home/monstruos/GitHub/Practice/src/field.h
+
+/home/monstruos/GitHub/Practice/src/field.h
 SFML/Graphics.hpp
 -
 yinyen.h
-/home/monstruos/GitHub/Practice/yinyen.h
+/home/monstruos/GitHub/Practice/src/yinyen.h
 
-/home/monstruos/GitHub/Practice/main.cpp
+/home/monstruos/GitHub/Practice/src/menu.cpp
+menu.h
+/home/monstruos/GitHub/Practice/src/menu.h
+
+/home/monstruos/GitHub/Practice/src/menu.h
 field.h
-/home/monstruos/GitHub/Practice/field.h
+/home/monstruos/GitHub/Practice/src/field.h
+sstream
+-
 
-/home/monstruos/GitHub/Practice/yinyen.cpp
+/home/monstruos/GitHub/Practice/src/yinyen.cpp
 yinyen.h
-/home/monstruos/GitHub/Practice/yinyen.h
+/home/monstruos/GitHub/Practice/src/yinyen.h
 
-/home/monstruos/GitHub/Practice/yinyen.h
+/home/monstruos/GitHub/Practice/src/yinyen.h
 

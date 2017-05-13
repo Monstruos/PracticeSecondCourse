@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Practice.dir/main.cpp.o"
-  "CMakeFiles/Practice.dir/field.cpp.o"
-  "CMakeFiles/Practice.dir/yinyen.cpp.o"
+  "CMakeFiles/Practice.dir/src/field.cpp.o"
+  "CMakeFiles/Practice.dir/src/yinyen.cpp.o"
+  "CMakeFiles/Practice.dir/src/menu.cpp.o"
   "Practice.pdb"
   "Practice"
 )

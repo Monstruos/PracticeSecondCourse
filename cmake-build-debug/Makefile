@@ -123,33 +123,6 @@ Practice/fast:
 	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/build
 .PHONY : Practice/fast
 
-field.o: field.cpp.o
-
-.PHONY : field.o
-
-# target to build an object file
-field.cpp.o:
-	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/field.cpp.o
-.PHONY : field.cpp.o
-
-field.i: field.cpp.i
-
-.PHONY : field.i
-
-# target to preprocess a source file
-field.cpp.i:
-	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/field.cpp.i
-.PHONY : field.cpp.i
-
-field.s: field.cpp.s
-
-.PHONY : field.s
-
-# target to generate assembly for a file
-field.cpp.s:
-	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/field.cpp.s
-.PHONY : field.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -177,32 +150,86 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-yinyen.o: yinyen.cpp.o
+src/field.o: src/field.cpp.o
 
-.PHONY : yinyen.o
+.PHONY : src/field.o
 
 # target to build an object file
-yinyen.cpp.o:
-	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/yinyen.cpp.o
-.PHONY : yinyen.cpp.o
+src/field.cpp.o:
+	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/src/field.cpp.o
+.PHONY : src/field.cpp.o
 
-yinyen.i: yinyen.cpp.i
+src/field.i: src/field.cpp.i
 
-.PHONY : yinyen.i
+.PHONY : src/field.i
 
 # target to preprocess a source file
-yinyen.cpp.i:
-	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/yinyen.cpp.i
-.PHONY : yinyen.cpp.i
+src/field.cpp.i:
+	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/src/field.cpp.i
+.PHONY : src/field.cpp.i
 
-yinyen.s: yinyen.cpp.s
+src/field.s: src/field.cpp.s
 
-.PHONY : yinyen.s
+.PHONY : src/field.s
 
 # target to generate assembly for a file
-yinyen.cpp.s:
-	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/yinyen.cpp.s
-.PHONY : yinyen.cpp.s
+src/field.cpp.s:
+	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/src/field.cpp.s
+.PHONY : src/field.cpp.s
+
+src/menu.o: src/menu.cpp.o
+
+.PHONY : src/menu.o
+
+# target to build an object file
+src/menu.cpp.o:
+	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/src/menu.cpp.o
+.PHONY : src/menu.cpp.o
+
+src/menu.i: src/menu.cpp.i
+
+.PHONY : src/menu.i
+
+# target to preprocess a source file
+src/menu.cpp.i:
+	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/src/menu.cpp.i
+.PHONY : src/menu.cpp.i
+
+src/menu.s: src/menu.cpp.s
+
+.PHONY : src/menu.s
+
+# target to generate assembly for a file
+src/menu.cpp.s:
+	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/src/menu.cpp.s
+.PHONY : src/menu.cpp.s
+
+src/yinyen.o: src/yinyen.cpp.o
+
+.PHONY : src/yinyen.o
+
+# target to build an object file
+src/yinyen.cpp.o:
+	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/src/yinyen.cpp.o
+.PHONY : src/yinyen.cpp.o
+
+src/yinyen.i: src/yinyen.cpp.i
+
+.PHONY : src/yinyen.i
+
+# target to preprocess a source file
+src/yinyen.cpp.i:
+	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/src/yinyen.cpp.i
+.PHONY : src/yinyen.cpp.i
+
+src/yinyen.s: src/yinyen.cpp.s
+
+.PHONY : src/yinyen.s
+
+# target to generate assembly for a file
+src/yinyen.cpp.s:
+	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/src/yinyen.cpp.s
+.PHONY : src/yinyen.cpp.s
 
 # Help Target
 help:
@@ -213,15 +240,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Practice"
-	@echo "... field.o"
-	@echo "... field.i"
-	@echo "... field.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... yinyen.o"
-	@echo "... yinyen.i"
-	@echo "... yinyen.s"
+	@echo "... src/field.o"
+	@echo "... src/field.i"
+	@echo "... src/field.s"
+	@echo "... src/menu.o"
+	@echo "... src/menu.i"
+	@echo "... src/menu.s"
+	@echo "... src/yinyen.o"
+	@echo "... src/yinyen.i"
+	@echo "... src/yinyen.s"
 .PHONY : help
 
 

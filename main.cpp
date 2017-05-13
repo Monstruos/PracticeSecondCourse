@@ -1,8 +1,7 @@
-#include "field.h"
+#include "src/menu.h"
 
 int main() {
-   // sf::RenderWindow window(sf::VideoMode(800, 600), "My window");
-    GameField a;
-    a.show();
+    Menu menu;
+    menu.execute();
     return 0;
 }

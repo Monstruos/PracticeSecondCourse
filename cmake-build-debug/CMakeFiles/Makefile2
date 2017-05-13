@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/monstruos/GitHub/Practice/cmake-build-debug
 CMakeFiles/Practice.dir/all:
 	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/depend
 	$(MAKE) -f CMakeFiles/Practice.dir/build.make CMakeFiles/Practice.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/monstruos/GitHub/Practice/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target Practice"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/monstruos/GitHub/Practice/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target Practice"
 .PHONY : CMakeFiles/Practice.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/Practice.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Practice.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/monstruos/GitHub/Practice/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/monstruos/GitHub/Practice/cmake-build-debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Practice.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/monstruos/GitHub/Practice/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Practice.dir/rule
