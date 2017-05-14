@@ -35,8 +35,6 @@ private:
     YinYen ***map;
     YinYen ***nextmap;
     RenderWindow *window;
-    CircleShape *Yin;
-    CircleShape *Yen;
     Clock *cl;
     Time elapse;
     Font font;

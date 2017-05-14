@@ -2,7 +2,7 @@
 
 Menu::Menu():game(NULL),
              xsize(10),
-             ysize(11),
+             ysize(10),
              chFlag(true)
 {
     winMenu = new RenderWindow(VideoMode(400, 200), "Menu", sf::Style::Close);
@@ -13,7 +13,7 @@ Menu::Menu():game(NULL),
     head.setFont(font);
 
     head.setCharacterSize(23);
-    head.setString("Parameters(Up, Down,\nLeft, Right - change,\n Enter - openGameWindow):");
+    head.setString("Parameters(Up, Down,\nLeft, Right - change,\n Enter - start):");
     head.setPosition(50, 10);
     head.setColor(Color::White);
 

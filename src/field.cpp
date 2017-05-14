@@ -24,16 +24,6 @@ GameField::GameField() : xsize(10),
     text.setCharacterSize(20);
     text.setColor(Color::Green);
     text.setPosition(Vector2f(xsize*20 + 10, 2));
-
-    Yin = new CircleShape(2.f);
-    Yin->setFillColor(Color::White);
-    Yin->setOutlineThickness(6);
-    Yin->setOutlineColor(Color::Black);
-
-    Yen = new CircleShape(2.f);
-    Yen->setFillColor(Color::Black);
-    Yen->setOutlineThickness(6);
-    Yen->setOutlineColor(Color::White);
     cl = new Clock;
 }
 
@@ -61,23 +51,11 @@ GameField::GameField(unsigned int x, unsigned int y) : xsize(x),
     text.setCharacterSize(20);
     text.setColor(Color::Green);
     text.setPosition(Vector2f(xsize*20 + 10, 2));
-
-    Yin = new CircleShape(2.f);
-    Yin->setFillColor(Color::White);
-    Yin->setOutlineThickness(6);
-    Yin->setOutlineColor(Color::Black);
-
-    Yen = new CircleShape(2.f);
-    Yen->setFillColor(Color::Black);
-    Yen->setOutlineThickness(6);
-    Yen->setOutlineColor(Color::White);
     cl = new Clock;
 }
 
 GameField::~GameField() {
     mapClear();
-    delete Yin;
-    delete Yen;
     delete cl;
 }
 
