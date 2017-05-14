@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG   CMakeFiles/Practice.dir/main.cpp.o CMakeFiles/Practice.dir/src/field.cpp.o CMakeFiles/Practice.dir/src/yinyen.cpp.o CMakeFiles/Practice.dir/src/menu.cpp.o  -o Practice -lsfml-graphics -lsfml-window -lsfml-system -lglut 

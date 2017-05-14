@@ -1,0 +1,4 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /home/monstruos/GitHub/Practice
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/monstruos/GitHub/Practice/release-version

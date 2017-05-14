@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/monstruos/GitHub/Practice/field.cpp
+field.h
+/home/monstruos/GitHub/Practice/field.h
+
+/home/monstruos/GitHub/Practice/field.h
+SFML/Graphics.hpp
+-
+yinyen.h
+/home/monstruos/GitHub/Practice/yinyen.h
+
+/home/monstruos/GitHub/Practice/yinyen.cpp
+yinyen.h
+/home/monstruos/GitHub/Practice/yinyen.h
+
+/home/monstruos/GitHub/Practice/yinyen.h
+

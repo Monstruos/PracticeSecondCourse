@@ -1,0 +1,3 @@
+/home/monstruos/GitHub/Practice/release-version/CMakeFiles/edit_cache.dir
+/home/monstruos/GitHub/Practice/release-version/CMakeFiles/rebuild_cache.dir
+/home/monstruos/GitHub/Practice/release-version/CMakeFiles/Practice.dir
