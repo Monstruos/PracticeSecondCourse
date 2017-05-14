@@ -233,24 +233,14 @@ void GameField::drawInterface() {
 }
 
 void GameField::drawMap() {
+    CircleShape *dr;
     if(window != NULL)
         for(int i = 0; i < xsize; ++i)
-            for(int j = 0; j < ysize; ++j)
-                switch(map[i][j]->getStatus())
-                {
-                    case 1:
-                        Yen->setPosition(Vector2f(9+i*20, 9+j*20));
-                        window->draw(*Yen);
-                        break;
-                    case 0:
-                        break;
-                    case -1:
-                        Yin->setPosition(Vector2f(9+i*20, 9+j*20));
-                        window->draw(*Yin);
-                        break;
-                    default:
-                        break;
-                }
+            for(int j = 0; j < ysize; ++j) {
+                dr = map[i][j]->getCell();
+                if(dr != NULL)
+                    window->draw(*dr);
+            }
 }
 
 void GameField::eventHandler(Event event) {
